@@ -20,3 +20,7 @@ changeDeadline() {
 this.setState({deadline: this.state.newDeadline});
 }
 ```
+
+- State - the pertinent data to an application. Each component has its local state as long as you declare add the constructor to a Component and declare its state object.
+
+LifeCycle Methods - events in React components that trigger in cases such as rendering on or off the screen, or during state updates. One example is the `componentDidMount()` lifeCycle hook.
